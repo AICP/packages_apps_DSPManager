@@ -81,8 +81,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="eq_preset_treble_reducer">고음 감소</string>
     <string name="eq_preset_vocal_booster">음성 증폭</string>
     <string name="eq_preset_custom">사용자 지정</string>
-    <!-- WM8994 -->
-    <!-- Categories -->
     <string name="category_wm8994_internal_speaker">스피커</string>
     <string name="category_wm8994_signal_processing">신호 처리</string>
     <string name="category_wm8994_headphone_amp">헤드셋</string>
@@ -91,7 +89,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="category_wm8994_analog_path">아날로그 경로 설정</string>
     <string name="category_wm8994_mic_settings">마이크 설정</string>
     <string name="category_wm8994_microphone_recording">마이크</string>
-    <!-- Titles/Summaries -->
     <string name="pref_wm8994_microphone_recording_title">녹음 프리셋</string>
     <string name="pref_wm8994_headphone_amp_title">증폭기 수준</string>
     <string name="pref_wm8994_headphone_amp_summary">아날로그 게인 설정</string>
@@ -205,9 +202,7 @@ enabled whenever using stereo headsets.
 Because the mixing reduces the stereo separation somewhat, there is a
 Haas effect reverb, which can be used to increase the perceived stereo image
 width. This is controlled by the \'Room type\' control.</string>
-    <!-- Sound Control -->
     <string name="soundcontrol_title">소리 제어</string>
-    <!-- Preferences -->
     <string name="pref_soundcontrol_presets_title">소리 제어 프리셋</string>
     <string name="pref_soundcontrol_headphone_gain_title">헤드폰 Gain</string>
     <string name="pref_soundcontrol_headphone_poweramp_gain_title">헤드폰 PowerAmp Gain</string>
@@ -228,13 +223,11 @@ width. This is controlled by the \'Room type\' control.</string>
     <string name="sc_preset_quiet">조용함</string>
     <string name="sc_preset_stock">기본값</string>
     <string name="sc_value_changed">음악을 정지하고 다시 재생하여 설정을 적용하세요!</string>
-    <!-- Drawer -->
     <string name="navigation_drawer_toggle">서랍 토글</string>
     <string name="navigation_drawer_open">내비게이션 서랍 열기</string>
     <string name="navigation_drawer_close">내비게이션 서랍 닫기</string>
     <string name="navigation_toggle_drawer">서랍으로 전환</string>
     <string name="navigation_toggle_tabbed">탭으로 전환</string>
-    <!-- Boeffla Sound Control -->
     <string name="boeffla_sound_control">Boeffla 사운드 컨트롤</string>
     <string name="boeffla_sound_title">Boeffla 사운드</string>
     <string name="boeffla_sound_summary">Boeffla 사운드 사용</string>

@@ -81,8 +81,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="eq_preset_treble_reducer">Atenuador d\'aguts</string>
     <string name="eq_preset_vocal_booster">Potenciador vocal</string>
     <string name="eq_preset_custom">Personalitzat</string>
-    <!-- WM8994 -->
-    <!-- Categories -->
     <string name="category_wm8994_internal_speaker">Altaveu</string>
     <string name="category_wm8994_signal_processing">Processament de senyal</string>
     <string name="category_wm8994_headphone_amp">Auriculars</string>
@@ -91,7 +89,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="category_wm8994_analog_path">Configuració del camí analògic</string>
     <string name="category_wm8994_mic_settings">Configuració del micròfon</string>
     <string name="category_wm8994_microphone_recording">Micròfon</string>
-    <!-- Titles/Summaries -->
     <string name="pref_wm8994_microphone_recording_title">Predefinits de gravació</string>
     <string name="pref_wm8994_headphone_amp_title">Nivell d\'amplificador</string>
     <string name="pref_wm8994_headphone_amp_summary">Personalitza el guany analògic</string>
@@ -155,9 +152,7 @@ La compensació s\'afegeix als ajustaments escollits per l\'usuari. Si només es
 El filtra auriculars és un disseny de retroalimentació inspirat en el famós circuit bs2b analògic. L\'efecte passa so mono sense modificar i ajusta la diferència de senyal senyal a través d\'un filtre de baix nivell acosta conjuntament l\'ombra del cap i el retard interaural, donant el tipus adequat de pistes psicoacústiques per a les oïdes de l\'usuari. La intenció és impedir la fatiga de l\'oient derivada de la separació inversemblant de l\'estèreo inherent a tots els auriculars. L\'efecte s\'ha d\'activar sempre que s\'utilitzin auriculars estèreo.
 \n\n
 Com que la mescla reduieix una mica la separació estèreo, hi ha un efecte de reverberació Haas, que es pot utilitzar per augmentar l\'amplada de la imatge estèreo percebuda. Això ho controla el paràmetre «Tipus d\'habitació».</string>
-    <!-- Sound Control -->
     <string name="soundcontrol_title">Control de so</string>
-    <!-- Preferences -->
     <string name="pref_soundcontrol_presets_title">Controls de so predefinits</string>
     <string name="pref_soundcontrol_headphone_gain_title">Guany dels auriculars</string>
     <string name="pref_soundcontrol_headphone_poweramp_gain_title">Guany PowerAmp dels auriculars</string>
@@ -178,13 +173,11 @@ Com que la mescla reduieix una mica la separació estèreo, hi ha un efecte de r
     <string name="sc_preset_quiet">Silenciós</string>
     <string name="sc_preset_stock">De fàbrica</string>
     <string name="sc_value_changed">Atureu i repreneu la música per aplicar els valors!</string>
-    <!-- Drawer -->
     <string name="navigation_drawer_toggle">Commuta el calaix</string>
     <string name="navigation_drawer_open">Obre el calaix de navegació</string>
     <string name="navigation_drawer_close">Tanca el calaix de navegació</string>
     <string name="navigation_toggle_drawer">Canvia a calaix</string>
     <string name="navigation_toggle_tabbed">Canvia a pestanyes</string>
-    <!-- Boeffla Sound Control -->
     <string name="boeffla_sound_control">Control de so Boeffla</string>
     <string name="boeffla_sound_title">So Boeffla</string>
     <string name="boeffla_sound_summary">Habilita el so Boeffla</string>

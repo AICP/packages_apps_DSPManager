@@ -81,8 +81,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="eq_preset_treble_reducer">Réduction des aiguës</string>
     <string name="eq_preset_vocal_booster">Amplification de la voix</string>
     <string name="eq_preset_custom">Personnalisé</string>
-    <!-- WM8994 -->
-    <!-- Categories -->
     <string name="category_wm8994_internal_speaker">Haut-parleur</string>
     <string name="category_wm8994_signal_processing">Traitement du signal</string>
     <string name="category_wm8994_headphone_amp">Casque</string>
@@ -91,7 +89,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="category_wm8994_analog_path">Configuration du chemin analogique</string>
     <string name="category_wm8994_mic_settings">Paramètre du microphone</string>
     <string name="category_wm8994_microphone_recording">Microphone</string>
-    <!-- Titles/Summaries -->
     <string name="pref_wm8994_microphone_recording_title">Réglages d\'enregistrement</string>
     <string name="pref_wm8994_headphone_amp_title">Niveau d\'amplification</string>
     <string name="pref_wm8994_headphone_amp_summary">Définir le gain analogique</string>
@@ -162,9 +159,7 @@ La compensation est ajoutée aux ajustements choisis par l\'utilisateur. Si aucu
 Le filtre du casque est un modèle d\'intercommunication inspiré du célèbre circuit analogique bs2b. L\'effet passe le son en mono sans le changer, et ajuste les différents signaux à travers un filtre passe-bas puis le renvoi au coté opposé à la fois en arrière plan et avec un retard inter-aural, ce qui donne un bon indice psychoacoustique pour les oreilles de l\'utilisateur. Le but est de prévenir la fatigue d\'écoute résultant de la séparation de la stéréo inhérente à tous les casques. L\'effet devrait être activé lorsque vous utilisez des écouteurs stéréo.
 \n\n
 L\'égaliseur réduit un peu la séparation stéréo, vous pouvez utiliser un effet de réverbération Haas pour augmenter la largeur de stéréo perçue. Ceci est contrôlé avec le paramètre “Type de chambre”.</string>
-    <!-- Sound Control -->
     <string name="soundcontrol_title">Contrôle du son</string>
-    <!-- Preferences -->
     <string name="pref_soundcontrol_presets_title">Pré-réglages</string>
     <string name="pref_soundcontrol_headphone_gain_title">Gain du casque</string>
     <string name="pref_soundcontrol_headphone_poweramp_gain_title">Gain PowerAmp du casque</string>
@@ -185,13 +180,11 @@ L\'égaliseur réduit un peu la séparation stéréo, vous pouvez utiliser un ef
     <string name="sc_preset_quiet">Silencieux</string>
     <string name="sc_preset_stock">Par défaut</string>
     <string name="sc_value_changed">S\'il vous plaît, stoppez et relancez votre musique pour appliquer les paramètres\u00A0!</string>
-    <!-- Drawer -->
     <string name="navigation_drawer_toggle">Ouvrir le panneau</string>
     <string name="navigation_drawer_open">Ouvrir le panneau latéral</string>
     <string name="navigation_drawer_close">Fermer le panneau latéral</string>
     <string name="navigation_toggle_drawer">Utiliser le panneau latéral</string>
     <string name="navigation_toggle_tabbed">Utiliser les onglets</string>
-    <!-- Boeffla Sound Control -->
     <string name="boeffla_sound_control">Contrôle de son Boeffla</string>
     <string name="boeffla_sound_title">Son Boeffla</string>
     <string name="boeffla_sound_summary">Activer le son Boeffla</string>

@@ -81,8 +81,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="eq_preset_treble_reducer">Tiz azaltıcı</string>
     <string name="eq_preset_vocal_booster">Vokal yükseltici</string>
     <string name="eq_preset_custom">Özel</string>
-    <!-- WM8994 -->
-    <!-- Categories -->
     <string name="category_wm8994_internal_speaker">Hoparlör</string>
     <string name="category_wm8994_signal_processing">Sinyal işleme</string>
     <string name="category_wm8994_headphone_amp">Kulaklık</string>
@@ -91,7 +89,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="category_wm8994_analog_path">Analog kanal yapılandırması</string>
     <string name="category_wm8994_mic_settings">Mikrofon ayarları</string>
     <string name="category_wm8994_microphone_recording">Mikrofon</string>
-    <!-- Titles/Summaries -->
     <string name="pref_wm8994_microphone_recording_title">Kaydetme ön ayarı</string>
     <string name="pref_wm8994_headphone_amp_title">Yükseltici seviyesi</string>
     <string name="pref_wm8994_headphone_amp_summary">Analog yükselticiyi özelleştir</string>
@@ -116,11 +113,11 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="pref_wm8994_dac_direct_title">D/AC doğrudan</string>
     <string name="pref_wm8994_dac_direct_summary">Kanal mikseri atlayarak doğrudan dijital/analog dönüştürücüye erişin. Daha temiz ses üretir (daha yüksek sinyal-gürültü oranı)</string>
     <string name="pref_wm8994_dac_osr128_title">Hi-fi yürütme</string>
-    <string name="pref_wm8994_dac_osr128_summary">Dijital-analog dönüştürücü 128x aşırı örnekleme - &#8212; müzik çalarken daha temiz ses</string>
+    <string name="pref_wm8994_dac_osr128_summary">Dijital-analog dönüştürücü 128x aşırı örnekleme &#8212; müzik çalarken daha temiz ses</string>
     <string name="pref_wm8994_adc_osr128_title">Hi-fi kaydetme</string>
-    <string name="pref_wm8994_adc_osr128_summary">Analog-dijital dönüştürücü 128x fazla örnekleme - &#8212; kayıtların kalitesini artırır</string>
+    <string name="pref_wm8994_adc_osr128_summary">Analog-dijital dönüştürücü 128x fazla örnekleme &#8212; kayıtların kalitesini artırır</string>
     <string name="pref_wm8994_fll_tuning_title">Ses saati ayarı</string>
-    <string name="pref_wm8994_fll_tuning_summary">Ayarlı WM8994 ses saat kaynağını kullan - &#8212; ses kalitesini artırır</string>
+    <string name="pref_wm8994_fll_tuning_summary">Ayarlı WM8994 ses saat kaynağını kullan &#8212; ses kalitesini artırır</string>
     <string name="save_preset">Ön ayarı kaydet</string>
     <string name="load_preset">Ön ayarı yükle</string>
     <string name="new_preset">Yeni ön ayar...</string>
@@ -205,9 +202,7 @@ Stereo kulaklıklar kullanıldığında etkinleştirilir.
 Karıştırma, stereo ayrımını biraz azalttığından, bir
 Algılanan stereo görüntüsünü arttırmak için kullanılabilen Haas etkisi reverb
 Genişlik. Bu \'Oda tipi\' kontrolü ile kontrol edilir.</string>
-    <!-- Sound Control -->
     <string name="soundcontrol_title">Ses kontrolü</string>
-    <!-- Preferences -->
     <string name="pref_soundcontrol_presets_title">Ses kontrolü ön ayarları</string>
     <string name="pref_soundcontrol_headphone_gain_title">Kulaklık yükseltmesi</string>
     <string name="pref_soundcontrol_headphone_poweramp_gain_title">Kulaklık poweramp yükseltmesi</string>
@@ -228,13 +223,11 @@ Genişlik. Bu \'Oda tipi\' kontrolü ile kontrol edilir.</string>
     <string name="sc_preset_quiet">Sessiz</string>
     <string name="sc_preset_stock">Varsayılan</string>
     <string name="sc_value_changed">Lütfen değerleri uygulamak için müziğinizi durdurun ve devam ettirin!</string>
-    <!-- Drawer -->
     <string name="navigation_drawer_toggle">Çekmeceyi değiştir</string>
     <string name="navigation_drawer_open">Gezinme çekmecesini aç</string>
     <string name="navigation_drawer_close">Gezinme çekmecesini kapat</string>
     <string name="navigation_toggle_drawer">Çekmeceye geç</string>
     <string name="navigation_toggle_tabbed">Sekmeliye geç</string>
-    <!-- Boeffla Sound Control -->
     <string name="boeffla_sound_control">Boeffla ses kontrolü</string>
     <string name="boeffla_sound_title">Boeffla sesi</string>
     <string name="boeffla_sound_summary">Boeffla sesini etkinleştir</string>
