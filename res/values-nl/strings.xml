@@ -81,8 +81,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="eq_preset_treble_reducer">Hoge tonenverzwakker</string>
     <string name="eq_preset_vocal_booster">Stemversterker</string>
     <string name="eq_preset_custom">Aangepast</string>
-    <!-- WM8994 -->
-    <!-- Categories -->
     <string name="category_wm8994_internal_speaker">Speaker</string>
     <string name="category_wm8994_signal_processing">Signaalverwerking</string>
     <string name="category_wm8994_headphone_amp">Headset</string>
@@ -91,7 +89,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="category_wm8994_analog_path">Analoge padenconfiguratie</string>
     <string name="category_wm8994_mic_settings">Microfooninstellingen</string>
     <string name="category_wm8994_microphone_recording">Microfoon</string>
-    <!-- Titles/Summaries -->
     <string name="pref_wm8994_microphone_recording_title">Preset voor opnemen</string>
     <string name="pref_wm8994_headphone_amp_title">Versterkerniveau</string>
     <string name="pref_wm8994_headphone_amp_summary">Analoge gain wijzigen</string>
@@ -161,9 +158,7 @@ Word gedaan aan de gekozen aanpassingen van de gebruiker. Als alleen een lichte 
 De headset-filter is een cross feed ontwerp geïnspireerd door de beroemde BS2B analoge schakeling. Het effect laat mono geluid onveranderd, en past het verschil signaal aan door een lowpass filter. Dit benadert zowel hoofd, schaduw en interaurale vertraging tegelijk, de juiste soort Psych akoestische aanwijzingen geven voor de oren van de gebruiker. De bedoeling is om te voorkomen dat vermoeidheid van de luisteraar die voortvloeien uit de ongeloofwaardig stereoscheiding inherente alle headsets. Het effect moet worden ingeschakeld wanneer u gebruikmaakt van stereohoofdtelefoons. 
 \n\n 
 Omdat het mengen de stereoscheiding enigszins vermindert, is er een Haas effect, die kan worden gebruikt om de beeldbreedte van de waargenomen stereo te vergroten. Dit wordt geregeld door het besturingselement ‘Kamer type’.</string>
-    <!-- Sound Control -->
     <string name="soundcontrol_title">Geluidscontrole</string>
-    <!-- Preferences -->
     <string name="pref_soundcontrol_presets_title">Geluidscontrole voorkeurinstellingen</string>
     <string name="pref_soundcontrol_headphone_gain_title">Hoofdtelefoon voorvesterking</string>
     <string name="pref_soundcontrol_headphone_poweramp_gain_title">Hoofdtelefoon PowerAmp versterking</string>
@@ -184,13 +179,11 @@ Omdat het mengen de stereoscheiding enigszins vermindert, is er een Haas effect,
     <string name="sc_preset_quiet">Stil</string>
     <string name="sc_preset_stock">Standaard</string>
     <string name="sc_value_changed">Stop en herstart de muziek om de waarden toe te passen!</string>
-    <!-- Drawer -->
     <string name="navigation_drawer_toggle">Schakel scherm</string>
     <string name="navigation_drawer_open">Open navigatiescherm</string>
     <string name="navigation_drawer_close">Sluit navigatiescherm</string>
     <string name="navigation_toggle_drawer">Wisselen naar navigatiescherm</string>
     <string name="navigation_toggle_tabbed">Wisselen naar tabbladen</string>
-    <!-- Boeffla Sound Control -->
     <string name="boeffla_sound_control">Boeffla geluidscontrole</string>
     <string name="boeffla_sound_title">Boeffla geluid</string>
     <string name="boeffla_sound_summary">Boeffla sound inschakelen</string>

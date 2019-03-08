@@ -81,8 +81,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="eq_preset_treble_reducer">Redução de agudos</string>
     <string name="eq_preset_vocal_booster">Ganho de voz</string>
     <string name="eq_preset_custom">Personalizado</string>
-    <!-- WM8994 -->
-    <!-- Categories -->
     <string name="category_wm8994_internal_speaker">Alto-falantes</string>
     <string name="category_wm8994_signal_processing">Processamento de sinal</string>
     <string name="category_wm8994_headphone_amp">Fone de ouvido</string>
@@ -91,7 +89,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="category_wm8994_analog_path">Configuração de caminho analógico</string>
     <string name="category_wm8994_mic_settings">Configurações do microfone</string>
     <string name="category_wm8994_microphone_recording">Microfone</string>
-    <!-- Titles/Summaries -->
     <string name="pref_wm8994_microphone_recording_title">Predefinição de gravação</string>
     <string name="pref_wm8994_headphone_amp_title">Nível do amplificador</string>
     <string name="pref_wm8994_headphone_amp_summary">Personalizar o ganho analógico</string>
@@ -126,9 +123,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="new_preset">Nova predefinição...</string>
     <string name="help_title">Ajuda</string>
     <string name="help_text"><b>O que é Gerenciador de DSP?</b> \n\n DSP Manager é um app por saída de ajuste de áudio <i>DSP</i> representa o processamento de sinal Digital, e o <i>gerente</i> parte refere-se ao fato de que na verdade não o DSP é executado dentro do aplicativo propriamente dito; o gerente pode apenas habilitá-lo para aplicativos que são compatíveis com a especificação de áudio efeito do Android, ou seja, a maioria dos tocadores de música. suportes de processamento de áudio do <b>filosofia</b> \n\n\n \n\n CyanogenMod diferentes categorias de saída: fio fone de ouvido, telefone falante e fone de ouvido bluetooth. Há um painel de configuração separado para cada categoria de saída. Filosofia do DSP Manager é para corrigir deficiências particulares a cada saída de áudio para alcançar a experiência auditiva mais ideal com cada um. \n\n diferentemente com efeitos de áudio AOSP, não há nenhuma configuração por-app. Esta é uma escolha deliberada de projeto: é a saída que nos interessa, não qual aplicativo gera o áudio para DSP Manager para trabalhar com. <b>características</b> de \n\n\n \n\n 1. <b>Compressão dinâmica (RDC)</b> \n\n este efeito estima o volume do áudio como percebida por um ouvinte médio e conduz a um controle de ganho baseado nesta estimativa. O caso de uso primário é com ambientes ruidosos como em carros ou na rua, onde o silêncio partes da música estão em risco de ser abafadas pelo ruído de fundo. \n\n a sola sintonizável determina quão duro DSP Manager tentará manter o volume áudio no nível do alvo. Não há nenhum AOSP equivalente para este efeito DSP. \n\n\n 2. \N\n <b>Bass boost</b> que reforço de graves é um filtro lowpass simples que pode ser usado para adicionar uma ênfase em 55Hz e freqüências mais baixas. O impulso é de cerca de 6 dB e modificado pelo parâmetro \'força\', que adiciona ressonância do filtro para a banda de 55 Hz, dando essa frequência ênfase extra. O efeito é projetado para combater a perda de frequência baixa comum com pequenos alto-falantes e fones de ouvido supra aural que casal não firmemente com o canal do ouvido do usuário. \n\n\n 3. \N\n <b>equalizador</b> é um 6-band equalizador com bandas em 16, 64, 250, 1000, 4000 e 16000 Hz. Alguns presets comuns são fornecidos, e a resposta de freqüência também pode ser personalizada, tocando no gráfico equalizador. O efeito deve ser usado para ajustar a resposta de freqüência de gosto pessoal do usuário, ou para os recursos específicos do disponível fone de ouvido ou alto-falantes. \n\n equalizador também contém um filtro de compensação de sonoridade, que equaliza as mudanças na resposta de freqüência de orelha com base no nível de pressão sonora que atinge o ouvido do usuário. É necessária a utilização de um fone de ouvido com fio, e o valor do parâmetro de força deve ser ajustado corretamente antes que o efeito irá funcionar conforme projetado. \n\n para selecionar o valor correcto para a força de compensação, use o volume de música mais silencioso e escolher alguma música barulhenta de amplo espectro como rock ou metal. Tente encontrar uma configuração onde o baixo é impulsionado para audibilidade e parece equilibrada com o resto do material. Depois que a compensação tenha sido configurada corretamente, baixo deve permanecer no mesmo nível em relação os outros instrumentos, independentemente do nível de audição. Por outro lado, se música começar a som baixo pesado em níveis mais elevados de escutando, a compensação é provavelmente o conjunto muito forte e deve ser reduzida. \n\n a compensação é adicionado ao ajustamentos escolhido do usuário. Se apenas a compensação é desejada, o equalizador deve ser deixado no cenário \'Flat\'. \n\n\n 4. \N\n <b>Headset filtro</b> filtro o fone de ouvido é um projeto da intercomunicação inspirado pelo famoso bs2b circuito analógico. O efeito passa som mono inalterado e ajusta o sinal de diferença através de um filtro passa-baixa que se aproxima tanto cabeça sombra e atraso interaural ao mesmo tempo, dando o tipo certo de pistas psicoacústico para os ouvidos do usuário. A intenção é evitar fadiga ouvinte decorrentes da separação estéreo implausível inerente com todos os fones de ouvido. O efeito deve ser ativado sempre que usando fones de ouvido estéreo. \n\n porque a mistura reduz a separação estéreo um pouco, há um reverb de efeito Haas, que pode ser usado para aumentar a largura da imagem estéreo percebida. Isso é controlado pelo controle \'Tipo de quarto\'.</string>
-    <!-- Sound Control -->
     <string name="soundcontrol_title">Controle de som</string>
-    <!-- Preferences -->
     <string name="pref_soundcontrol_presets_title">Predefinições do controle de som</string>
     <string name="pref_soundcontrol_headphone_gain_title">Ganho de fone de ouvido</string>
     <string name="pref_soundcontrol_headphone_poweramp_gain_title">Ganho PowerAmp de fone de ouvido</string>
@@ -149,13 +144,11 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="sc_preset_quiet">Silêncio</string>
     <string name="sc_preset_stock">Estoque</string>
     <string name="sc_value_changed">Por favor pare e retome a música para aplicar os valores!</string>
-    <!-- Drawer -->
     <string name="navigation_drawer_toggle">Alternar Lista</string>
     <string name="navigation_drawer_open">Abra o painel de navegação</string>
     <string name="navigation_drawer_close">Fechar painel de navegação</string>
     <string name="navigation_toggle_drawer">Alternar para gaveta</string>
     <string name="navigation_toggle_tabbed">Alternar para abas</string>
-    <!-- Boeffla Sound Control -->
     <string name="boeffla_sound_control">Controlador de som Boeffla</string>
     <string name="boeffla_sound_title">Som Boeffla</string>
     <string name="boeffla_sound_summary">Ativar som boeffla</string>

@@ -81,8 +81,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="eq_preset_treble_reducer">Reducir agudos</string>
     <string name="eq_preset_vocal_booster">Potenciador vocal</string>
     <string name="eq_preset_custom">Personalizado</string>
-    <!-- WM8994 -->
-    <!-- Categories -->
     <string name="category_wm8994_internal_speaker">Altavoz</string>
     <string name="category_wm8994_signal_processing">Procesamiento de señal</string>
     <string name="category_wm8994_headphone_amp">Auriculares</string>
@@ -91,7 +89,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="category_wm8994_analog_path">Configuración de ruta analógica</string>
     <string name="category_wm8994_mic_settings">Ajustes de micrófono</string>
     <string name="category_wm8994_microphone_recording">Micrófono</string>
-    <!-- Titles/Summaries -->
     <string name="pref_wm8994_microphone_recording_title">Grabación predefinida</string>
     <string name="pref_wm8994_headphone_amp_title">Nivel del amplificador</string>
     <string name="pref_wm8994_headphone_amp_summary">Personalizar ganancia analógica</string>
@@ -162,9 +159,7 @@ La compensación se suma al ajuste elegido por el usuario. Si sólo se desea com
 El filtro de auricular posee un diseño de crossfeed inspirado en el famoso circuito analógico de bs2b. El efecto pasa el sonido mono sin cambios y ajusta la señal diferencial a través de un filtro pasabajos que se aproxima a ambos sombra superior y retraso interaural, dando certeros tipos de pistas psicoacústicas para los oídos del usuario. La intención es evitar la fatiga del oyente provocada por la separación estéreo inverosímil inherente con los auriculares. El efecto debe habilitarse cada vez que se usen auriculares estéreo.
 \n\n
 Debido a que la mezcla reduce un poco de la separación estérea, hay una reverberación del efecto Haas, que se puede utilizar para aumentar el ancho de la imagen estéreo percibida. Esto es controlado por la configuración de \'Tipo de habitación\'.</string>
-    <!-- Sound Control -->
     <string name="soundcontrol_title">Control de sonido</string>
-    <!-- Preferences -->
     <string name="pref_soundcontrol_presets_title">Ajustes preestablecidos del control de sonido</string>
     <string name="pref_soundcontrol_headphone_gain_title">Ganancia de auriculares</string>
     <string name="pref_soundcontrol_headphone_poweramp_gain_title">Ganancia PowerAmp de auriculares</string>
@@ -185,13 +180,11 @@ Debido a que la mezcla reduce un poco de la separación estérea, hay una reverb
     <string name="sc_preset_quiet">Tranquilo</string>
     <string name="sc_preset_stock">Predeterminado</string>
     <string name="sc_value_changed">Por favor, detenga y reanude su música para aplicar los valores!</string>
-    <!-- Drawer -->
     <string name="navigation_drawer_toggle">Cajón de Interruptores</string>
     <string name="navigation_drawer_open">Abrir panel de navegación</string>
     <string name="navigation_drawer_close">Cierra el cajón de navegación</string>
     <string name="navigation_toggle_drawer">Cambiar a cajón</string>
     <string name="navigation_toggle_tabbed">Cambiar a pestañas</string>
-    <!-- Boeffla Sound Control -->
     <string name="boeffla_sound_control">Control de sonido Boeffla</string>
     <string name="boeffla_sound_title">Sonido Boeffla</string>
     <string name="boeffla_sound_summary">Habilitar sonido boeffla</string>

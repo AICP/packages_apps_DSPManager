@@ -81,8 +81,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="eq_preset_treble_reducer">Weniger Höhen</string>
     <string name="eq_preset_vocal_booster">Sprache</string>
     <string name="eq_preset_custom">Benutzerdefiniert</string>
-    <!-- WM8994 -->
-    <!-- Categories -->
     <string name="category_wm8994_internal_speaker">Lautsprecher</string>
     <string name="category_wm8994_signal_processing">Signalverarbeitung</string>
     <string name="category_wm8994_headphone_amp">Kopfhörer</string>
@@ -91,7 +89,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="category_wm8994_analog_path">Analogpfad-Einstellungen</string>
     <string name="category_wm8994_mic_settings">Mikrofon-Einstellungen</string>
     <string name="category_wm8994_microphone_recording">Mikrofon</string>
-    <!-- Titles/Summaries -->
     <string name="pref_wm8994_microphone_recording_title">Aufnahme-Voreinstellung</string>
     <string name="pref_wm8994_headphone_amp_title">Verstärker-Pegel</string>
     <string name="pref_wm8994_headphone_amp_summary">Analogverstärkung anpassen</string>
@@ -163,9 +160,7 @@ Die Loudness-Kompensation wirkt zusätzlich zur gewählten Einstellung des Equal
 Der \"Headset-Filter\" ist ein \"Crossfeed-Design\", das von der berühmten bs2b-Analogschaltung inspiriert wurde. Er lässt Monosignale unverändert passieren; lediglich das Differenzsignal wird mittels eines Tiefpassfilters beeinflusst. Der Filter erzeugt gleichzeitig einen Kopfschatteneffekt und eine interaurale Laufzeitdifferenz, um dem Hörer einen korrekten psychoakustischen Eindruck zu vermitteln. Dahinter steckt die Absicht, den Benutzer vor einer Hörermüdung durch unplausible Stereo-Trennung zu schützen. Der Effekt sollte bei allen Stereo-Kopfhörern verwendet werden.
 \n\n
 Da das Mischen die (Stereo-)Kanaltrennung reduziert, entsteht ein Echo-Effekt, der für die Erhöhung der Basisbreite verwendet werden kann. Dieser Effekt wird durch die Raumtyp-Einstellung beinflusst.</string>
-    <!-- Sound Control -->
     <string name="soundcontrol_title">Klang Kontrolle</string>
-    <!-- Preferences -->
     <string name="pref_soundcontrol_presets_title">Klang Kontroll-Voreinstellungen</string>
     <string name="pref_soundcontrol_headphone_gain_title">Kopfhörer Verstärkung</string>
     <string name="pref_soundcontrol_headphone_poweramp_gain_title">Kopfhörer PowerAmp Verstärkung</string>
@@ -186,13 +181,11 @@ Da das Mischen die (Stereo-)Kanaltrennung reduziert, entsteht ein Echo-Effekt, d
     <string name="sc_preset_quiet">Ruhig</string>
     <string name="sc_preset_stock">Grundeinstellung</string>
     <string name="sc_value_changed">Bitte stoppen Sie Ihre Musik. Dann starten sie erneut die Wiedergabe um die Werte anzuwenden!</string>
-    <!-- Drawer -->
     <string name="navigation_drawer_toggle">Schublade wechseln</string>
     <string name="navigation_drawer_open">Navigationsschublade öffnen</string>
     <string name="navigation_drawer_close">Navigationsschublade schließen</string>
     <string name="navigation_toggle_drawer">Auf Schublade umstellen</string>
     <string name="navigation_toggle_tabbed">Auf Registerkarten umstellen</string>
-    <!-- Boeffla Sound Control -->
     <string name="boeffla_sound_control">Boeffla Klang Kontrolle</string>
     <string name="boeffla_sound_title">Boeffla Klang</string>
     <string name="boeffla_sound_summary">Boeffla Klang aktivieren</string>

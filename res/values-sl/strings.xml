@@ -81,8 +81,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
   <string name="eq_preset_treble_reducer">Zmanjšanje visokih tonov</string>
   <string name="eq_preset_vocal_booster">Ojačevalec glasov</string>
   <string name="eq_preset_custom">Po meri</string>
-  <!-- WM8994 -->
-  <!-- Categories -->
   <string name="category_wm8994_internal_speaker">Zvočnik</string>
   <string name="category_wm8994_signal_processing">Obdelava signala</string>
   <string name="category_wm8994_headphone_amp">Slušalke</string>
@@ -91,7 +89,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
   <string name="category_wm8994_analog_path">Nastavitev poti analognega pretvornika</string>
   <string name="category_wm8994_mic_settings">Nastavitve mikrofona</string>
   <string name="category_wm8994_microphone_recording">Mikrofon</string>
-  <!-- Titles/Summaries -->
   <string name="pref_wm8994_microphone_recording_title">Snemanje prednastavitve</string>
   <string name="pref_wm8994_headphone_amp_title">Raven ojačanja</string>
   <string name="pref_wm8994_headphone_amp_summary">Prilagodi analogno ojačitev</string>
@@ -162,9 +159,7 @@ Izravnava se doda k uporabnikovim prilagoditvam.  Če želite samo izravnavo, pu
 Filter za slušalke je navzkrižna zasnova, ki jo je navdušilo slavno analogno vezje bs2b.  Učinek ne spremeni zvoka mono in prilagodi razlikovalni signal preko nizkopropustnega filtra, ki naenkrat oponaša oviranje zaradi glave in zakasnitev za bolj oddaljeno uho za dajanje pravih psihozvočnih učinkov uporabnikovim ušesom.  Namen je preprečiti utrujenost uporabnika, ki ga povzroči slušalkam prirojeno ločevanje sterea.  Učinek je treba omogočiti ob vsaki uporabi slušalk stereo.
 \n\n
 Ker mešanje nekoliko zmanjša ločevanje sterea, lahko za povečanje zaznane širine sterea uporabite odmev učinka Haas.  To lahko nadzirate z \'vrsto sobe\'.</string>
-  <!-- Sound Control -->
   <string name="soundcontrol_title">Nadzor zvoka</string>
-  <!-- Preferences -->
   <string name="pref_soundcontrol_presets_title">Prednastavitve nadzora zvoka</string>
   <string name="pref_soundcontrol_headphone_gain_title">Ojačitev slušalk</string>
   <string name="pref_soundcontrol_headphone_poweramp_gain_title">Ojačitev slušalk</string>
@@ -185,13 +180,11 @@ Ker mešanje nekoliko zmanjša ločevanje sterea, lahko za povečanje zaznane š
   <string name="sc_preset_quiet">Tiho</string>
   <string name="sc_preset_stock">Sistemsko</string>
   <string name="sc_value_changed">Ustavite in nadaljujte glasbo za uporabo vrednosti!</string>
-  <!-- Drawer -->
   <string name="navigation_drawer_toggle">Preklopi predal</string>
   <string name="navigation_drawer_open">Odpri predal za krmarjenje</string>
   <string name="navigation_drawer_close">Zapri predal za krmarjenje</string>
   <string name="navigation_toggle_drawer">Preklopi na predal</string>
   <string name="navigation_toggle_tabbed">Preklopi na zavihke</string>
-  <!-- Boeffla Sound Control -->
   <string name="boeffla_sound_control">Nadzor zvoka Boeffla</string>
   <string name="boeffla_sound_title">Zvok Boeffla</string>
   <string name="boeffla_sound_summary">Omogoči zvok Boeffla</string>
