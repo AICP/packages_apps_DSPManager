@@ -113,11 +113,11 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="pref_wm8994_dac_direct_title">D/AC doğrudan</string>
     <string name="pref_wm8994_dac_direct_summary">Kanal mikseri atlayarak doğrudan dijital/analog dönüştürücüye erişin. Daha temiz ses üretir (daha yüksek sinyal-gürültü oranı)</string>
     <string name="pref_wm8994_dac_osr128_title">Hi-fi yürütme</string>
-    <string name="pref_wm8994_dac_osr128_summary">Dijital-analog dönüştürücü 128x aşırı örnekleme &#8212; müzik çalarken daha temiz ses</string>
+    <string name="pref_wm8994_dac_osr128_summary">Dijital-analog dönüştürücü 128x aşırı örnekleme — müzik çalarken daha temiz ses</string>
     <string name="pref_wm8994_adc_osr128_title">Hi-fi kaydetme</string>
-    <string name="pref_wm8994_adc_osr128_summary">Analog-dijital dönüştürücü 128x fazla örnekleme &#8212; kayıtların kalitesini artırır</string>
+    <string name="pref_wm8994_adc_osr128_summary">Analog-dijital dönüştürücü 128x fazla örnekleme — kayıtların kalitesini artırır</string>
     <string name="pref_wm8994_fll_tuning_title">Ses saati ayarı</string>
-    <string name="pref_wm8994_fll_tuning_summary">Ayarlı WM8994 ses saat kaynağını kullan &#8212; ses kalitesini artırır</string>
+    <string name="pref_wm8994_fll_tuning_summary">Ayarlı WM8994 ses saat kaynağını kullan — ses kalitesini artırır</string>
     <string name="save_preset">Ön ayarı kaydet</string>
     <string name="load_preset">Ön ayarı yükle</string>
     <string name="new_preset">Yeni ön ayar...</string>

@@ -122,6 +122,85 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="load_preset">Załaduj ustawienie</string>
     <string name="new_preset">Nowe ustawienie...</string>
     <string name="help_title">Pomoc</string>
+    <string name="help_text"><b>co to jest Menedżer DSP?</b>
+\n\n
+DSP Manager to aplikacja do regulacji dźwięku. Z angielskiego, <i>DSP</i> oznacza
+Cyfrowe Przetwarzanie Dźwięku, zaś <i>Menedżer</i> oznacza, że
+DSP faktycznie nie jest uruchamiany jako aplikacja, sam Menedżer może tylko
+go włączyć dla aplikacji, które są zgodne ze specyfikacją efektów audio Androida
+co obsługuje większość odtwarzaczy muzycznych.
+\n\n\n
+<b>Filozofia</b>
+\n\n
+Przetwarzanie dźwięku LineageOS obsługuje różne konfiguracje, takie jak:
+przewodowy zestaw słuchawkowy, głośnik telefonu a także zestaw słuchawkowy bluetooth. Istnieje oddzielny
+panel konfiguracji dla każdego wyjścia dźwięku. Istotą działania Menedżera DSP jest
+poprawianie jakości dźwięku dla każdego wyjścia audio w celu osiągnięcia najbardziej
+optymalniej jakość odsłuchu.
+\n\n
+
+W przeciwieństwie do efektów dźwiękowych w ROMach AOSP, nie istnieją żadne
+ustawienia dla konkretnej aplikacji. Jest to świadomy wybór: dbamy ogólnie o jakość dźwięku,
+a nie tylko tylko dla konkretnej aplikacji której dźwięk jest ulepszany za pomocą Menedżera DSP.
+\n\n\n
+<b>Funkcje</b>
+\n\n
+1. <b>Kompresja dynamiki (DRC)</b>
+\n\n
+Efekt ten estymuje głośność dźwięku, postrzeganej średnio przez 
+słuchacza i na jego podstawie kontroluje wzmocnienie. Przykładowo, tego efektu można użyć
+w hałaśliwym otoczeniu, takim samochód lub na ulicy, gdzie cichsze tony
+muzyki mogą być zagłuszone przez hałas otoczenia.\n\n
+
+Siła efektu określa, jak bardzo Menedżer DSP będzie starał się utrzymać głośność na poziomie docelowej.
+Nie ma odpowiednika tej funkcji w ROmach AOSP.
+\n\n\n
+2. <b>Wzmocnienie basu</b>
+\n\n
+Podbicie basu jest prostym filtrem dolnoprzepustowym, który może służyć do wzmocnienia
+częstotliwości w 55 Hz, a także niższym. Wzmocnienie wynosi około 6 dB i modyfikowane przez
+parametr \"siły efektu\", która dodaje filtr rezonansowy na 55 Hz, dając tej częstotliwości
+dodatkowe wzmocnienie. Efekt jest przeznaczony do przeciwdziałania utraty częstotliwości,
+która często ma miejsca w przypadku używania z małych głośników, czy słuchawkach nausznych o konstrukcji otwartej, które nie przylegają ściśle do ucha użytkownika.
+\n\n\n
+3. <b>Equalizer</b>
+\n\n
+Jest to sześciostopniowy korektor dźwięku o częstotliwościach 16, 64, 250, 1000, 4000 i 16000 Hz.
+Posiada on kilka predefiniowanych ustawień, zaś same pasma mogą być również
+dostosowywane przez przesuwanie słupków. Efekt powinien służyć aby dostroić dźwięk
+do gustu użytkownika, lub też w celu polepszenia dźwięku na danych słuchawkach lub głośnikach.
+\n\n
+Equalizer zawiera także filtr kompensacji głośności, który wyrównuje zmiany w
+odpowiedzi częstotliwościowej w oparciu o poziom ciśnienia akustycznego, który dociera
+do ucha użytkownika. Wymagane jest korzystanie z przewodowego zestawu słuchawkowego,
+a wartości parametrów siły muszą być ręcznie nastrojone, zanim osiągnie się odpowiedni efekt
+zgodny z przeznaczeniem.
+\n\n
+Aby wybrać odpowiednią wartość wzmocnienia, ścisz głośność dźwięku do minimum
+oraz użyj utworu o szerokim spektrum tonalnym, przykładowo jak rock lub metal. Spróbuj
+znaleźć ustawienie, dla którego basy znów będą słyszalne i będą wyglądać na zbalansowane
+z resztą dźwięków. Po prawidłowym skonfigurowaniu, bas powinien pozostać na tym samym poziomie głośności
+w stosunku do innych instrumentów, niezależnie od poziomu odsłuchu.
+Z drugiej strony, jeśli muzyka zaczyna brzmieć za bardzo basowo na większej głośności,
+wzmocnienie jest prawdopodobnie zbyt duża i powinna zostać zmniejszona.
+\n\n
+
+Zmiany są dodawane do wybranych ustawień użytkownika. Jeśli wymagana jest tylko kompensacja
+głośności przy pomocy filtra, ustawienie efektu powinno być na profilu \"Płaski\".
+\n\n\n
+4. <b>Filtr zestawu słuchawkowego</b>
+\n\n
+Filtr zestawu słuchawkowego został zaprojektowany analogowym układem bs2b.
+Efekt przekazuje dźwięk mono niezmienionym dostosowuje sygnał różnicowy
+przez filtr dolnoprzepustowy, który przybliża uczucie grania muzyki z tyłu głowy,
+a także z małym opóźnienie, symulując wrażenie odsłuchu \"na żywo\" dla uszu użytkownika.
+Celem tego filtra jest zapobieganie zmęczeniu słuchacza wynikające z niewiarygodnej
+separacji dźwięków stereo właściwej dla wszystkich zestawów słuchawkowych.
+Efekt powinien być włączony przy każdym użyciu zestawu słuchawkowego stereo.
+\n\n
+Ponieważ mieszanie zmniejsza nieco separację stereo, powoduje on powstawanie
+tzw. efektu Haas\'a, który można wykorzystać do zwiększenia naturalnej przestrzenności
+dźwięku. Jest to kontrolowane przez ustawienie \"Typ pokoju\".</string>
     <string name="soundcontrol_title">Kontrola dźwięku</string>
     <string name="pref_soundcontrol_presets_title">Kontrola ustawień dźwięku</string>
     <string name="pref_soundcontrol_headphone_gain_title">Wzmocnienie słuchawek</string>
