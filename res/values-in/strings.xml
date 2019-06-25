@@ -82,13 +82,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="category_wm8994_internal_speaker">Speaker</string>
     <string name="category_wm8994_signal_processing">Pemrosesan sinyal</string>
     <string name="category_wm8994_headphone_amp">Headset</string>
+    <string name="category_wm8994_analog_path">Konfigurasi lintasan analog</string>
     <string name="category_wm8994_mic_settings">Setelan mikrofon</string>
     <string name="category_wm8994_microphone_recording">Mikrofon</string>
     <string name="pref_wm8994_headphone_amp_summary">Sesuaikan penguatan analog</string>
+    <string name="pref_wm8994_headphone_amp_dlg_title">Tingkat penguat headset</string>
     <string name="pref_wm8994_headphone_amp_dlg_desc">Penguatan analog</string>
     <string name="pref_wm8994_bass_boost_enable_title">Peningkatan bass</string>
     <string name="pref_wm8994_bass_boost_enable_summary">Kontrol lanjutan untuk peningkatan bass</string>
     <string name="pref_wm8994_bass_boost_title">Rentang peningkatan bass</string>
+    <string name="pref_wm8994_bass_boost_summary">Pengelolaan rentang dinamis lanjutan</string>
     <string name="pref_wm8994_bass_boost_dlg_title">Peningkatan bass</string>
     <string name="pref_wm8994_bass_boost_range_dlg_desc">Rentang peningkatan bass</string>
     <string name="pref_wm8994_control_enable_title">Hidupkan kontrol WM8994</string>
@@ -97,6 +100,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="pref_wm8994_speaker_tuning_summary">Konfigurasi ulang perangkat keras EQ untuk lebih banyak bass dan suara seimbang</string>
     <string name="pref_wm8994_mono_downmix_title">Penggabungan mono</string>
     <string name="pref_wm8994_stereo_expansion_title">Pelebaran stereo</string>
+    <string name="pref_wm8994_dac_osr128_title">Pemutaran Hi-Fi</string>
+    <string name="pref_wm8994_adc_osr128_title">Rekaman Hi-Fi</string>
     <string name="help_title">Bantuan</string>
     <string name="soundcontrol_title">Kontrol Suara</string>
     <string name="pref_soundcontrol_microphone_gain_title">Peningkatan Mikrofon</string>
@@ -105,10 +110,17 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="sc_preset_summary">Pilih tetapan untuk dimuat</string>
     <string name="sc_preset_custom">Khusus</string>
     <string name="sc_preset_quality">Kualitas</string>
+    <string name="sc_preset_loudness">Kenyaringan</string>
+    <string name="sc_preset_quiet">Diam</string>
     <string name="sc_preset_stock">Bawaan</string>
     <string name="general_title">Umum</string>
     <string name="mic_title">Mikrofon</string>
+    <string name="mic_call">Volume panggilan</string>
+    <string name="mic_general">Volume umum</string>
+    <string name="mono_downmix_summary">Ubah stereo menjadi mono</string>
     <string name="mono_downmix_title">Penggabungan mono</string>
+    <string name="privacy_mode_title">Mode privasi</string>
+    <string name="speaker_volume_title">Volume speaker</string>
     <string name="stereo_expansion_title">Pelebaran stereo</string>
     <string name="volumes_title">Volume</string>
 </resources>
