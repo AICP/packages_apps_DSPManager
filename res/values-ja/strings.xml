@@ -32,12 +32,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <string name="select_configuration_title">編集する設定を選択</string>
     <string name="headset_title">ヘッドセット</string>
     <string name="speaker_title">スピーカー</string>
-    <string name="bluetooth_title">Bluetoothデバイス</string>
     <string name="audio_effects">オーディオエフェクト</string>
-    <string name="pref_unavailable">あなたのデバイスではサポートされていません</string>
     <string name="dsp_settings_headset">DSP 設定 - ヘッドフォン</string>
     <string name="dsp_settings_speaker">DSP 設定 - スピーカー</string>
-    <string name="dsp_settings_bluetooth">DSP 設定 - Bluetooth デバイス</string>
     <string name="dsp_settings_wm8994">DSP 設定 - WM8994</string>
     <string name="pref_dsp_title">ダイナミックレンジコンプレッション</string>
     <string name="pref_dsp_summary_on">コンプレッションは有効</string>
